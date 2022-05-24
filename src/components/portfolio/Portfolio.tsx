@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../project/Project";
 import "./portfolio.css";
+import { projects } from "../../data";
 
 type PortfolioProps = {};
 
@@ -13,16 +14,22 @@ const Portfolio: React.FC<PortfolioProps> = () => {
         </h1>
         <h3 className="portfolio__description">
           The projects below were created using a variety of tools. These tools
-          include - but are not limited to - NextJS, Typescript, MongoDB, and
+          include - but are not limited to - ReactJS, NextJS, MongoDB, and
           Firebase
         </h3>
       </div>
       <div className="portfolio__list">
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        {projects.map((p, index) => (
+          <Project
+            key={index}
+            name={p.name}
+            description={p.description}
+            stack={p.stack}
+            img={p.img}
+            githubLink={p.githubLink}
+            demoLink={p.demoLink}
+          />
+        ))}
       </div>
     </div>
   );
