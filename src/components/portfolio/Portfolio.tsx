@@ -13,9 +13,8 @@ const Portfolio: React.FC<PortfolioProps> = () => {
           Explore some projects I've worked on below
         </h1>
         <h3 className="portfolio__description">
-          The projects below were created using a variety of tools. These tools
-          include - but are not limited to - ReactJS, NextJS, MongoDB, and
-          Firebase
+          The projects below were created using a variety of tools that include
+          - but are not limited to - ReactJS, NextJS, MongoDB, and Firebase
         </h3>
       </div>
       <div className="portfolio__list">

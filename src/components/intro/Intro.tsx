@@ -19,10 +19,10 @@ const Intro: React.FC<IntroProps> = () => {
             </div>
           </div>
           <div className="i-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perspiciatis soluta enim corporis. Facere ea veritatis, quae, illo
-            porro consectetur inventore modi non harum dolores asperiores dolor
-            hic corporis quo officia.
+            Klay is a web developer who embraces the cycle of learning, trying,
+            and failing until he succeeds. Currently focused on building web
+            applications, he one day hopes to contribute to the software that
+            make modern music production possible.
           </div>
         </div>
       </div>
