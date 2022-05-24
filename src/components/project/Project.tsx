@@ -28,7 +28,12 @@ const Project: React.FC<ProjectProps> = ({
           <div className="p-circle"></div>
         </div>
         <div className="p-browser-right">
-          <a href={githubLink} target={"_blank"} rel="noreferrer">
+          <a
+            href={githubLink}
+            target={"_blank"}
+            rel="noreferrer"
+            className="p-github-link"
+          >
             <img src={githubLogo} alt="github logo" className="p-github" />
           </a>
         </div>

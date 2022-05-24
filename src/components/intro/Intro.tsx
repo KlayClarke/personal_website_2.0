@@ -9,7 +9,7 @@ const Intro: React.FC<IntroProps> = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-greeting">Hello, My name is</h2>
-          <h1 className="i-name">Klay Clarke</h1>
+          <h1 className="i-name header">Klay Clarke</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Developer</div>
@@ -17,12 +17,22 @@ const Intro: React.FC<IntroProps> = () => {
               <div className="i-title-item">Poet</div>
             </div>
           </div>
-          <div className="i-description">
+          <p className="i-description">
             I am a web developer embracing the cycle of learning, trying, and
             failing until I succeed. Currently focused on building web
             applications, I one day hope to contribute to the software that make
             modern music production possible.
-          </div>
+          </p>
+          <br />
+          <a href="#portfolio">
+            <button type="button">Explore my projects</button>
+          </a>
+          <br />
+          <a href="#about">
+            <button type="button" className="v2">
+              Learn more about me
+            </button>
+          </a>
         </div>
       </div>
       <div className="i-right">
@@ -31,4 +41,22 @@ const Intro: React.FC<IntroProps> = () => {
     </div>
   );
 };
-export default Intro;
+
+const NewIntro = () => {
+  return (
+    <>
+      <section className="intro" id="home">
+        <h1 className="section__title section__title--intro">
+          Hi, I am <strong>Klay Clarke</strong>
+        </h1>
+        <p className="section__subtitle section__subtitle--intro">
+          Web Developer
+        </p>
+        <img src="" alt="" className="intro__img" />
+      </section>
+    </>
+  );
+};
+
+// export default Intro;
+export default NewIntro;

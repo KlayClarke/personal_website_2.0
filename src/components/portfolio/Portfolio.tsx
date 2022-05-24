@@ -7,15 +7,15 @@ type PortfolioProps = {};
 
 const Portfolio: React.FC<PortfolioProps> = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <div className="portfolio__texts">
-        <h1 className="portfolio__title">
+        <h1 className="portfolio__title header">
           Explore some projects I've worked on below
         </h1>
-        <h3 className="portfolio__description">
+        <p className="portfolio__description">
           The projects below were created using a variety of tools that include
           - but are not limited to - ReactJS, NextJS, MongoDB, and Firebase
-        </h3>
+        </p>
       </div>
       <div className="portfolio__list">
         {projects.map((p, index) => (

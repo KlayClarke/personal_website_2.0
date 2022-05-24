@@ -1,7 +1,6 @@
 .i {
   display: flex;
   min-height: 100vh;
-  background: lightgray;
 }
 
 .i-left {
@@ -44,6 +43,10 @@
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
+}
+
+.i-description {
+  max-width: 800px;
 }
 
 @keyframes move {
