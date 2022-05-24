@@ -12,17 +12,16 @@ const Intro: React.FC<IntroProps> = () => {
           <h1 className="i-name">Klay Clarke</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">Avid Typescript User</div>
-              <div className="i-title-item">Novice Bass Player</div>
-              <div className="i-title-item">Amateur Poet</div>
+              <div className="i-title-item">Developer</div>
+              <div className="i-title-item">Bass Player</div>
+              <div className="i-title-item">Poet</div>
             </div>
           </div>
           <div className="i-description">
-            Klay is a web developer who embraces the cycle of learning, trying,
-            and failing until he succeeds. Currently focused on building web
-            applications, he one day hopes to contribute to the software that
-            make modern music production possible.
+            I am a web developer embracing the cycle of learning, trying, and
+            failing until I succeed. Currently focused on building web
+            applications, I one day hope to contribute to the software that make
+            modern music production possible.
           </div>
         </div>
       </div>

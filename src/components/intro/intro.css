@@ -1,6 +1,6 @@
 .i {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   background: lightgray;
 }
 
@@ -21,7 +21,7 @@
 
 .i-left-wrapper {
   padding: 50px;
-  height: 30%;
+  min-height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,17 +47,14 @@
 }
 
 @keyframes move {
-  25% {
+  33% {
     transform: translateY(-50px);
   }
-  50% {
+  66% {
     transform: translateY(-100px);
   }
-  75% {
+  99% {
     transform: translateY(-150px);
-  }
-  100% {
-    transform: translateY(-200px);
   }
 }
 
@@ -67,4 +64,10 @@
   font-weight: bold;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  .i-right {
+    display: none;
+  }
 }
