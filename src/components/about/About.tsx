@@ -3,8 +3,8 @@ const NewAbout = () => {
     <section className="about-me" id="about">
       <h2 className="section__title section__title--about">Who Am I</h2>
       <p className="section__subtitle section__subtitle--about">
-        I am a self-taught web developer embracing the cycle of (1) learning,
-        (2) trying and (3) failing until I succeed.
+        I am a self-taught web developer embracing the cycle of learning, trying
+        and failing until I succeed.
       </p>
       <div className="about-me__body">
         <p>
