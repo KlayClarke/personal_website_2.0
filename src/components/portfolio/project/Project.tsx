@@ -1,5 +1,5 @@
 import React from "react";
-import githubLogo from "../../assets/GitHub-Logos/GitHub_Logo.png";
+import githubLogo from "../../../assets/GitHub-Logos/GitHub_Logo.png";
 import "./project.css";
 
 type ProjectProps = {

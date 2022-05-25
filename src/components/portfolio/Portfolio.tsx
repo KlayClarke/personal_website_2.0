@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "../project/Project";
+import Project from "./project/Project";
 import "./portfolio.css";
 import { projects } from "../../data";
 

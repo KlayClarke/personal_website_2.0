@@ -11,6 +11,7 @@
 }
 .portfolio__texts {
   width: 65%;
+  max-width: 750px;
 }
 
 .portfolio__title {

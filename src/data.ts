@@ -1,6 +1,7 @@
 import redditClone from "../src/assets/redditclone.png";
 import freshenV3 from "../src/assets/freshenv3.png";
 import freshenV2 from "../src/assets/freshen_image.png";
+import pw from "../src/assets/pw.png";
 
 export const projects = [
   {
@@ -28,5 +29,13 @@ export const projects = [
     img: freshenV2,
     githubLink: "https://github.com/KlayClarke/freshenv2",
     demoLink: "https://thawing-reaches-97496.herokuapp.com/",
+  },
+  {
+    name: "Personal Website",
+    description: "Personal website",
+    stack: "Created using Typescript, ReactJS",
+    img: pw,
+    githubLink: "https://github.com/KlayClarke/personal_website_2.0",
+    demoLink: "https://github.com/KlayClarke/personal_website_2.0",
   },
 ];
