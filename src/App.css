@@ -95,6 +95,7 @@ a {
 
 .section__title--intro {
   font-weight: var(--fw-reg);
+  padding: 20px;
 }
 
 .section__title--intro strong {
@@ -106,17 +107,21 @@ a {
   font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro,
-.section__subtitle--about {
-  font-family: var(--ff-secondary);
-  margin-bottom: 1em;
+.section__subtitle--intro {
+  display: inline-block;
 }
 
 /* Intro Section */
 
+.weather {
+  padding: 10px;
+}
+
 /* sun start */
 
 .sun {
+  position: absolute;
+  top: 20px;
   width: 200px;
   height: 200px;
   background-color: #ffde00;
@@ -124,6 +129,7 @@ a {
   box-shadow: 0 0 0 20px #ffde0080, 0 0 0 40px #ffde0040, 0 0 0 80px #ffde0010,
     0 0 0 100px #ffde0000, 0 0 40px 100px #ffde0010;
   animation: sunrise 2s infinite linear forwards, rays 2s 2s infinite linear;
+  z-index: -1;
 }
 
 @keyframes sunrise {
@@ -155,6 +161,7 @@ a {
   background: #eceff1;
   box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 100px;
+  z-index: 3;
 }
 .cloud::after,
 .cloud::before {
@@ -179,59 +186,24 @@ a {
 /* cloud end */
 
 .intro {
+  gap: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.intro__img {
-  box-shadow: var(--bs);
-  height: 250px;
-  background-color: black;
-  border-radius: 100%;
+.intro h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.section__subtitle--intro {
-  display: inline-block;
-}
-
-@media (min-width: 600px) {
-  .intro {
-    display: grid;
-    display: -ms-grid;
-    grid-column-gap: 1em;
-    grid-template-areas:
-      "img title"
-      "img subtitle";
-    grid-template-columns: min-content max-content;
-    -ms-grid-columns: min-content max-content;
-  }
-
-  .intro__img {
-    grid-area: img;
-    min-width: 250px;
-    position: relative;
-    z-index: 2;
-  }
-
-  .section__subtitle--intro {
-    align-self: flex-start;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
-  }
-}
-
-@media (max-width: 599px) {
+@media (max-width: 800px) {
   .intro {
     display: flex;
     flex-direction: column;
-  }
-  .intro__img {
-    display: none;
   }
 }
 
