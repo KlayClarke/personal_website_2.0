@@ -36,6 +36,5 @@ export const projects = [
     stack: "Created using Typescript, ReactJS",
     img: pw,
     githubLink: "https://github.com/KlayClarke/personal_website_2.0",
-    demoLink: "https://github.com/KlayClarke/personal_website_2.0",
   },
 ];

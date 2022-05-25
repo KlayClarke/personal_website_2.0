@@ -1,11 +1,9 @@
 const NewAbout = () => {
   return (
     <section className="about-me" id="about">
-      <h2 className="section__title section__title--about">Who Am I</h2>
-      <p className="section__subtitle section__subtitle--about">
-        I am a self-taught web developer embracing the cycle of learning, trying
-        and failing until I succeed.
-      </p>
+      <div className="cloud"></div>
+      <br />
+      <h2 className="section__title section__title--about">More About Me</h2>
       <div className="about-me__body">
         <p>
           While in college, I began producing music. The learning curve was

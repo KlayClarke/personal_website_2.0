@@ -91,6 +91,9 @@ a {
 
 .section__title {
   margin-bottom: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section__title--intro {
@@ -183,6 +186,27 @@ a {
   top: -80px;
   left: 130px;
 }
+
+.about-me .cloud {
+}
+
+@media (max-width: 800px) {
+  .about-me .cloud {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .sun {
+    display: flex;
+    height: 100px;
+    width: 100px;
+  }
+  .cloud {
+    display: none;
+  }
+}
+
 /* cloud end */
 
 .intro {
@@ -226,6 +250,7 @@ a {
 
 @media (min-width: 600px) {
   .about-me {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;

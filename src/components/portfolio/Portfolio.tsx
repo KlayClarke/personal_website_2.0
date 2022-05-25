@@ -10,11 +10,11 @@ const Portfolio: React.FC<PortfolioProps> = () => {
     <div className="portfolio" id="portfolio">
       <div className="portfolio__texts">
         <h1 className="portfolio__title header">
-          Explore some projects I've worked on below
+          I am a self-taught web developer embracing the cycle of learning,
+          trying and failing until I succeed.
         </h1>
         <p className="portfolio__description">
-          The projects below were created using a variety of tools that include
-          - but are not limited to - ReactJS, NextJS, MongoDB, and Firebase
+          Explore some projects I've worked on below
         </p>
       </div>
       <div className="portfolio__list">

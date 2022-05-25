@@ -8,7 +8,7 @@ type ProjectProps = {
   stack: string;
   img: string;
   githubLink: string;
-  demoLink: string;
+  demoLink?: string;
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -38,9 +38,15 @@ const Project: React.FC<ProjectProps> = ({
           </a>
         </div>
       </div>
-      <a href={demoLink} target={"_blank"} rel="noreferrer">
-        <img src={img} alt={`${name} image`} className="p-img" />
-      </a>
+      {demoLink ? (
+        <a href={demoLink} target={"_blank"} rel="noreferrer">
+          <img src={img} alt={`${name} image`} className="p-img" />
+        </a>
+      ) : (
+        <>
+          <img src={img} alt={`${name} image`} className="p-img" />
+        </>
+      )}
     </div>
   );
 };
