@@ -50,9 +50,7 @@ const NewIntro = () => {
         <h1 className="section__title section__title--intro">
           Hi, I am <strong>Klay Clarke</strong>
         </h1>
-        <p className="section__subtitle section__subtitle--intro">
-          Web Developer
-        </p>
+        <div className="cloud"></div>
       </section>
     </>
   );

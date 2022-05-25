@@ -108,7 +108,6 @@ a {
 
 .section__subtitle--intro,
 .section__subtitle--about {
-  background: var(--clr-accent);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
@@ -146,6 +145,38 @@ a {
 }
 
 /* sun end */
+
+/* cloud start */
+
+.cloud {
+  margin-top: 70px;
+  width: 350px;
+  height: 120px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.cloud::after,
+.cloud::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+}
+.cloud::after {
+  width: 100px;
+  height: 100px;
+  top: -130px;
+  left: -125px;
+}
+.cloud::before {
+  width: 180px;
+  height: 180px;
+  top: -80px;
+  left: 130px;
+}
+/* cloud end */
 
 .intro {
   display: flex;
