@@ -1,5 +1,4 @@
 import React from "react";
-import "./intro.css";
 import klayImage from "../../assets/klay.jpeg";
 
 type IntroProps = {};
@@ -47,13 +46,13 @@ const NewIntro = () => {
   return (
     <>
       <section className="intro" id="home">
+        <div className="sun"></div>
         <h1 className="section__title section__title--intro">
           Hi, I am <strong>Klay Clarke</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">
           Web Developer
         </p>
-        <img src="" alt="" className="intro__img" />
       </section>
     </>
   );
