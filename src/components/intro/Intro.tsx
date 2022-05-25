@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import klayImage from "../../assets/klay.jpeg";
 
 type IntroProps = {};
 
@@ -58,5 +59,4 @@ const NewIntro = () => {
   );
 };
 
-// export default Intro;
 export default NewIntro;
