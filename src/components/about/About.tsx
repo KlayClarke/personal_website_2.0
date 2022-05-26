@@ -8,13 +8,13 @@ const NewAbout = () => {
         <p>
           While in college, I began producing music. The learning curve was
           steep, but my preferred applications -{" "}
-          <span>
+          <span className="music-span">
             <a href="https://www.ableton.com/" target={"_blank"}>
               Ableton
             </a>{" "}
           </span>{" "}
           and{" "}
-          <span>
+          <span className="music-span">
             <a href="https://www.apple.com/logic-pro/" target={"_blank"}>
               Logic Pro X
             </a>
@@ -24,13 +24,13 @@ const NewAbout = () => {
           <br />
           <br />
           I'd also fell in love with{" "}
-          <span>
+          <span className="stats-span">
             <a href="https://www.stata.com/" target={"_blank"}>
               Stata
             </a>
           </span>{" "}
           and{" "}
-          <span>
+          <span className="stats-span">
             <a href="https://www.r-project.org/" target={"_blank"}>
               R
             </a>
