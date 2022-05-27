@@ -43,7 +43,7 @@ const NewAbout = () => {
           Javascript and Python instead.
         </p>
         <p>
-          Learn more here:{" "}
+          Learn more:{" "}
           <span className="socials-span">
             <a href="https://github.com/KlayClarke" target={"_blank"}>
               GitHub
