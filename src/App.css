@@ -240,7 +240,7 @@ a {
   min-height: 100vh;
 }
 
-.about-me .about-me__body p {
+.about-me .about-me__body {
   padding: 20px;
 }
 

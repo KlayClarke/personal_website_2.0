@@ -42,6 +42,19 @@ const NewAbout = () => {
           such powerful software. I would soon find myself learning (and loving)
           Javascript and Python instead.
         </p>
+        <br />
+        <h4>Currently working on (as of May 27 2022):</h4>
+        <ul>
+          <li>Strengthening my Typescript</li>
+          <li>
+            Teaching myself TensorFlow (tf.js would be cool to implement in a
+            web app)
+          </li>
+          <li>
+            Learning Swift (I really want to create a "freshen" IOS application)
+          </li>
+        </ul>
+        <br />
         <p>
           Learn more:{" "}
           <span className="socials-span">
