@@ -32,7 +32,11 @@
   align-items: center;
   justify-content: center;
 }
-
+@media (max-width: 600px) {
+  .portfolio__texts {
+    width: 100%;
+  }
+}
 @media (max-width: 800px) {
   .portfolio__title {
     display: none;
