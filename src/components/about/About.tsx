@@ -42,8 +42,22 @@ const NewAbout = () => {
           such powerful software. I would soon find myself learning (and loving)
           Javascript and Python instead.
         </p>
-        <p></p>
-        <p></p>
+        <p>
+          Learn more here:{" "}
+          <span className="socials-span">
+            <a href="https://github.com/KlayClarke" target={"_blank"}>
+              GitHub
+            </a>
+          </span>
+          <span className="socials-span">
+            <a
+              href="https://www.linkedin.com/in/klayclarke000"
+              target={"_blank"}
+            >
+              LinkedIn
+            </a>
+          </span>
+        </p>
       </div>
     </section>
   );
