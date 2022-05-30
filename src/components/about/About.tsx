@@ -43,15 +43,16 @@ const NewAbout = () => {
           Javascript and Python instead.
         </p>
         <br />
-        <h4>Currently working on (as of May 27 2022):</h4>
+        <h4>Currently (as of May 29 2022) I am:</h4>
         <ul>
-          <li>Strengthening my Typescript</li>
           <li>
-            Teaching myself TensorFlow (tf.js would be cool to implement in a
-            web app)
+            Building a "freshen" ios app (Apple Maps, Firebase Auth and DB)
           </li>
           <li>
-            Learning Swift (I really want to create a "freshen" IOS application)
+            Learning C++ (CodeBeauty on YouTube is an amazing teacher)
+          </li>
+          <li>
+            Playing with Unreal Engine 5 (Check the "Ocho" repo for more details)
           </li>
         </ul>
         <br />
