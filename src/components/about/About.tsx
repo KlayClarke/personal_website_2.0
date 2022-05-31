@@ -46,7 +46,11 @@ const NewAbout = () => {
         <h4>Currently (as of May 31 2022) I am:</h4>
         <ul>
           <li>
-            Experimenting with UE5 / Learning C++ (via CodeBeauty on YT)
+            Experimenting with UE5 / Learning C++ (via <span className="socials-span">
+            <a href="https://www.youtube.com/c/CodeBeauty" target={"_blank"}>
+              CodeBeauty
+            </a>
+          </span> on YT)
           </li>
            <li>
             Attempting to build a "freshen" ios app (Apple Maps, Firebase Auth and DB)
