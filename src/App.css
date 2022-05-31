@@ -349,6 +349,13 @@ a {
   box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 70%);
 }
 
+.about-me .yt-span a {
+  background-color: white;
+  color: red;
+  border-color: red;
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 70%);
+}
+
 .about-me .socials-span a:first-child {
   margin-right: 5px;
 }
