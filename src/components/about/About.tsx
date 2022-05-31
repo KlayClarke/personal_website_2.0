@@ -46,7 +46,7 @@ const NewAbout = () => {
         <h4>Currently (as of May 31 2022) I am:</h4>
         <ul>
           <li>
-            Experimenting with UE5 / Learning C++ (via <span className="socials-span">
+            Experimenting with UE5 / Learning C++ (via <span className="yt-span">
             <a href="https://www.youtube.com/c/CodeBeauty" target={"_blank"}>
               CodeBeauty
             </a>
