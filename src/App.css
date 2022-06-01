@@ -34,6 +34,7 @@ code {
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #16e0bd;
+  --clr-sunshine: linear-gradient(to bottom, #ffde0025, black);
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -56,7 +57,7 @@ code {
 /* General Styles */
 
 body {
-  background: var(--clr-light);
+  background: var(--clr-sunshine);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
@@ -260,7 +261,7 @@ a {
 /* portfolio section */
 
 .portfolio {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -310,6 +311,7 @@ a {
   max-width: 1000px;
   margin: 0 auto;
   min-height: 100vh;
+  color: white;
 }
 
 .about-me .about-me__body {
