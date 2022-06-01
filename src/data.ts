@@ -2,6 +2,7 @@ import redditClone from "../src/assets/redditclone.png";
 import freshenV3 from "../src/assets/freshenv3.png";
 import freshenV2 from "../src/assets/freshen_image.png";
 import pw from "../src/assets/pw.png";
+import vStore from "../src/assets/vStore.png";
 
 export const projects = [
   {
@@ -20,6 +21,14 @@ export const projects = [
     img: freshenV3,
     githubLink: "https://github.com/KlayClarke/freshenv3",
     demoLink: "https://freshenv3.vercel.app/",
+  },
+  {
+    name: "vStore",
+    descrption: "A video streaming application that uses FastAPI, AWS, etc.",
+    stack: "Created using React, FastAPI, PostgreSQL, AWS, Docker, Chakra UI",
+    img: vStore,
+    githubLink: "https://github.com/KlayClarke/vStoreBackend",
+    demoLink: "https://v-store.vercel.app/",
   },
   {
     name: "freshen Version 2",

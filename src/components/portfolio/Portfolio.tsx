@@ -21,7 +21,7 @@ const Portfolio: React.FC<PortfolioProps> = () => {
           <Project
             key={index}
             name={p.name}
-            description={p.description}
+            description={p.description!}
             stack={p.stack}
             img={p.img}
             githubLink={p.githubLink}
