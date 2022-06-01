@@ -34,7 +34,9 @@ code {
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #16e0bd;
-  --clr-sunshine: linear-gradient(to bottom, #ffde0025, black);
+  --clr-sunshine: linear-gradient(to bottom, rgb(255, 157, 0), black);
+
+  /* #ffde0025 */
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -263,8 +265,6 @@ a {
 .portfolio {
   /* background-color: white; */
   color: black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
   min-height: 100vh;
   padding: 50px 100px;
   display: flex;
