@@ -1,4 +1,4 @@
-import redditClone from "../src/assets/redditclone.png";
+import redditClone from "../src/assets/redditclone.jpg";
 import freshenV3 from "../src/assets/freshenv3.png";
 import freshenV2 from "../src/assets/freshen_image.png";
 import pw from "../src/assets/pw.png";
