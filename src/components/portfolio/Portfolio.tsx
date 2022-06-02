@@ -9,8 +9,11 @@ const Portfolio: React.FC<PortfolioProps> = () => {
     <div className="portfolio" id="portfolio">
       <div className="portfolio__texts">
         <h1 className="portfolio__title header">
-          I am a self-taught web developer embracing the cycle of learning,
-          trying and failing until I succeed.
+          I am a self-taught web developer{" "}
+          <span>
+            {" "}
+            embracing the cycle of learning, trying and failing until I succeed.
+          </span>
         </h1>
         <p className="portfolio__description">
           Explore some projects I've worked on below
