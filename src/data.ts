@@ -22,14 +22,14 @@ export const projects = [
     githubLink: "https://github.com/KlayClarke/freshenv3",
     demoLink: "https://freshenv3.vercel.app/",
   },
-//   {
-//     name: "vStore",
-//     descrption: "A video streaming application that uses FastAPI, AWS, etc.",
-//     stack: "Created using React, FastAPI, PostgreSQL, AWS, Docker, Chakra UI",
-//     img: vStore,
-//     githubLink: "https://github.com/KlayClarke/vStoreBackend",
-//     demoLink: "https://v-store.vercel.app/",
-//   },
+  //   {
+  //     name: "vStore",
+  //     descrption: "A video streaming application that uses FastAPI, AWS, etc.",
+  //     stack: "Created using React, FastAPI, PostgreSQL, AWS, Docker, Chakra UI",
+  //     img: vStore,
+  //     githubLink: "https://github.com/KlayClarke/vStoreBackend",
+  //     demoLink: "https://v-store.vercel.app/",
+  //   },
   {
     name: "freshen Version 2",
     description:
