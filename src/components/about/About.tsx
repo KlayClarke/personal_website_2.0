@@ -43,13 +43,10 @@ const NewAbout = () => {
           Javascript and Python instead.
         </p>
         <br />
-        <h4>Currently (as of June 11 2022) I am:</h4>
+        <h4>Currently (as of July 1 2022) I am:</h4>
         <ul>
           <li>
-            Teaching myself C#
-          </li>
-          <li>
-            Learning Angular
+            Teaching myself C++
           </li>
         </ul>
         <br />
